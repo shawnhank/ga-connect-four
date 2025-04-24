@@ -1,9 +1,13 @@
 /*----- constants -----*/
 
+
 /*----- state variables -----*/
 
-/*----- cached elements -----*/
+
+/*----- cached elements  -----*/
+
 
 /*----- event listeners -----*/
+
 
 /*----- functions -----*/
