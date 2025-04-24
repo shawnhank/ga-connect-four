@@ -17,7 +17,7 @@ const msgEl = document.querySelector('h1');
 const playAgainBtn = document.getElementById('play-again');
 
 /*----- event listeners -----*/
-
+document.getElementById('markers').addEventListener('click', handleDrop);
 
 /*----- functions -----*/
 init();
@@ -41,6 +41,12 @@ function init() {
   turn = 1;
   render();
 }
+
+function handleDrop(evt) {   // what parameters do we need to pass into this function
+  console.log(evt);
+}
+
+
 
 // The purpose of the render() function is to 
 // "transfer"/visualize ALL state to/in the DOM
